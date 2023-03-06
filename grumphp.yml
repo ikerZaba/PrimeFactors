@@ -25,7 +25,8 @@ grumphp:
         variables: {}
         paths: []
     tasks:
-        phpcs: standard: []
+        phpcs:
+        standard: []
             severity: ~
             error_severity: ~
             warning_severity: ~
@@ -39,12 +40,14 @@ grumphp:
             triggered_by: [php]
             exclude: []
             show_sniffs_error_path: true
-        phpmd: whitelist_patterns: []
+        phpmd:
+            whitelist_patterns: []
             exclude: []
             report_format: text
             ruleset: ['cleancode', 'codesize', 'naming']
             triggered_by: ['php']
-        phpunit: config_file: ~
+        phpunit:
+            config_file: ~
             testsuite: ~
             group: []
             exclude_group: []
