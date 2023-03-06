@@ -24,7 +24,7 @@ grumphp:
         files: []
         variables: {}
         paths: []
-    tasks:
+    tasks:{
         phpunit:
             config_file: ~
             testsuite: ~
@@ -52,7 +52,7 @@ grumphp:
             sniffs: []
             triggered_by: [php]
             exclude: []
-            show_sniffs_error_path: true
-        
+            show_sniffs_error_path: true    
+            }   
     testsuites: []
     extensions: []
