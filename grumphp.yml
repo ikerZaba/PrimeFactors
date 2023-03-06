@@ -25,38 +25,6 @@ grumphp:
         variables: {}
         paths: []
     tasks:
-        ant: ~
-        atoum: ~
-        behat: ~
-        brunch: ~
-        clover_coverage: ~
-        codeception: ~
-        composer: ~
-        composer_normalize: ~
-        composer_require_checker: ~
-        composer_script: ~
-        deptrac: ~
-        doctrine_orm: ~
-        ecs: ~
-        eslint: ~
-        file_size: ~
-        gherkin: ~
-        git_blacklist: ~
-        git_branch_name: ~
-        git_commit_message: ~
-        grunt: ~
-        gulp: ~
-        infection: ~
-        jsonlint: ~
-        kahlan: ~
-        make: ~
-        npm_script: ~
-        paratest: ~
-        pest: ~
-        phan: ~
-        phing: ~
-        php7cc: ~
-        phpcpd: ~
         phpcs: standard: []
             severity: ~
             error_severity: ~
@@ -71,38 +39,16 @@ grumphp:
             triggered_by: [php]
             exclude: []
             show_sniffs_error_path: true
-        phpcsfixer: ~
-        phplint: ~
         phpmd: whitelist_patterns: []
             exclude: []
             report_format: text
             ruleset: ['cleancode', 'codesize', 'naming']
             triggered_by: ['php']
-        phpmnd: ~
-        phpparser: ~
-        phpspec: ~
-        phpstan: ~
         phpunit: config_file: ~
             testsuite: ~
             group: []
             exclude_group: []
             always_execute: false
-            order: null
-        phpunitbridge: ~
-        phpversion: ~
-        progpilot: ~
-        psalm: ~
-        rector: ~
-        robo: ~
-        securitychecker_enlightn: ~
-        securitychecker_local: ~
-        securitychecker_roave: ~
-        securitychecker_symfony: ~
-        shell: ~
-        stylelint: ~
-        tester: ~
-        twigcs: ~
-        xmllint: ~
-        yamllint: ~                  
+            order: null              
     testsuites: []
     extensions: []
