@@ -82,7 +82,7 @@ final class StringCalculatorTest extends TestCase
             $this->fail("Exception not thrown");
         }
         catch(Exception $e){
-            $this->assertEquals(333,$e->getCode());
+            $this->assertEquals(33,$e->getCode());
         }
     }
 
