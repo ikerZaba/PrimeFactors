@@ -103,7 +103,6 @@ grumphp:
         tester: ~
         twigcs: ~
         xmllint: ~
-        yamllint: ~    
-               
+        yamllint: ~                  
     testsuites: []
     extensions: []
